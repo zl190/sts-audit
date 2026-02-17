@@ -1,4 +1,8 @@
-# STS-Project-2026
+# sts-audit
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.12-green.svg)](.python-version)
+[![STS Engine](https://img.shields.io/badge/STS_Engine-v2.2_SAMA--Arch-orange.svg)](docs/SAMA-Arch_v2.2.md)
 
 **Making Software Quality Visible: Converting AI-Generated Code from Credence Good to Inspection Good**
 
@@ -81,7 +85,7 @@ v2.2 engine stress-tested against a research-grade Python codebase for Infant Sp
 ## Project Structure
 
 ```
-/STS-Project-2026
+/sts-audit
 ├── sts_checker.py             # Core audit engine (v2.2 SAMA-Arch)
 ├── pyproject.toml             # uv-managed dependencies (radon)
 ├── example.sts.toml           # Default audit policy template
