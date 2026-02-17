@@ -1,0 +1,8 @@
+case,file,tier,max_cc,mi_score,halstead_effort,ccr,adf,tl,verdict
+01_bookstore,H_v1_mono.py,H,17,55.05,2272.68,0.00,0.20,HIGH,FAILED
+01_bookstore,H_v2_mono.py,H,23,53.74,2980.98,0.00,0.20,HIGH,FAILED
+01_bookstore,Z_v1_mono.py,Z(logical),4,49.43,1786.37,0.00,0.20,HIGH,FAILED
+01_bookstore,Z_v2_mono.py,Z(logical),9,46.52,3256.38,0.00,0.20,HIGH,FAILED
+01_bookstore,Z_v2_split/service.py,Z(physical),4,51.56,1087.82,0.00,0.00,HIGH,PASSED
+02_mall,H_mono.py,H,3,51.18,1249.62,0.00,0.20,LOW,FAILED
+02_mall,Z_split/service.py,Z(physical),3,55.39,456.13,0.00,0.00,LOW,PASSED

@@ -1,0 +1,14 @@
+# STS SAMA-Arch Configuration
+# Copy this file to .sts.toml in your project root to customize audit policy.
+
+[thresholds]
+max_cc = 20            # per-file cyclomatic complexity ceiling
+adf = 0.05             # per-file architecture drift ceiling (density)
+ccr = 0.3              # per-file / project code churn rate ceiling
+project_max_cc = 10    # project-level CC ceiling
+
+[patterns]
+illegal = ["import tkinter", "from bookstore_ui", "print("]
+
+[skip]
+dirs = ["__pycache__", ".venv", "venv", ".git"]
