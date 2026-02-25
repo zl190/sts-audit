@@ -115,7 +115,7 @@ uv run python run_cross_model_experiment.py --tier A B C
 uv run python run_cross_model_experiment.py --smoke-test
 ```
 
-Pre-registered design (commit `05f8902`). Results in `records/cross_model_results.json`.
+Pre-registered design (commit `05f8902`). Raw experiment data (1,709 files, 375 runs): [v0.2.0 Release](https://github.com/zl190/sts-audit/releases/tag/v0.2.0).
 
 ## Key References
 
